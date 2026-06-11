@@ -452,11 +452,13 @@ h1 {
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    border:1px solid #ddd;
-    background:#fff;
-    color:var(--primaryColor);
+    border-radius:50%;
+    border:0;
+    background:var(--primaryColor);
+    color:#fff;
+    box-shadow:0 2px 6px rgba(13,110,253,0.2);
 }
-.project-plus:hover{background:#f8f9fa}
+.project-plus:hover{opacity:0.95}
 
 /* Highlight target on portfolio page */
 .portfolio-highlight{
