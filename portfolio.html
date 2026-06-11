@@ -96,7 +96,7 @@
     <p>Projects from my resume including hackathon winners and ML/AI work.</p>
 </div>
 
-<div class="col-lg-6 mb-4">
+<div id="farm-vision" class="col-lg-6 mb-4">
     <div class="card p-3">
         <h4>Farm Vision App</h4>
         <p class="mb-1"><strong>Tech:</strong> Kotlin, Computer Vision</p>
@@ -107,7 +107,9 @@
     </div>
 </div>
 
-<div class="col-lg-6 mb-4">
+<!-- anchor id for direct linking -->
+
+<div id="myntra" class="col-lg-6 mb-4">
     <div class="card p-3">
         <h4>Myntra Dress Price Predictor & Recommender</h4>
         <p class="mb-1"><strong>Tech:</strong> XGBoost, Web Scraping</p>
@@ -118,7 +120,7 @@
     </div>
 </div>
 
-<div class="col-lg-6 mb-4">
+<div id="cognitia" class="col-lg-6 mb-4">
     <div class="card p-3">
         <h4>Cognitia AI Assistant</h4>
         <p class="mb-1"><strong>Tech:</strong> LLM integration, Full Stack</p>
@@ -129,7 +131,7 @@
     </div>
 </div>
 
-<div class="col-lg-6 mb-4">
+<div id="smart-inbox" class="col-lg-6 mb-4">
     <div class="card p-3">
         <h4>Smart Inbox</h4>
         <p class="mb-1"><strong>Tech:</strong> SVM, TF-IDF</p>
@@ -182,6 +184,21 @@
 </a>
 
 <script src="./js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    var hash = location.hash;
+    if(hash){
+        try{
+            var el = document.querySelector(hash);
+            if(el){
+                el.scrollIntoView({behavior:'smooth', block:'start'});
+                el.classList.add('portfolio-highlight');
+                setTimeout(function(){ el.classList.remove('portfolio-highlight'); }, 3000);
+            }
+        }catch(e){/* ignore invalid selectors */}
+    }
+});
+</script>
 
 </body>
 </html>

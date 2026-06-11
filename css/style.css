@@ -445,6 +445,27 @@ h1 {
 }
 
 /* End Portfolio */
+/* Project plus button */
+.project-plus{
+    width:40px;
+    height:40px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid #ddd;
+    background:#fff;
+    color:var(--primaryColor);
+}
+.project-plus:hover{background:#f8f9fa}
+
+/* Highlight target on portfolio page */
+.portfolio-highlight{
+    -webkit-box-shadow: 0 10px 30px rgba(13,110,253,0.08);
+    box-shadow: 0 10px 30px rgba(13,110,253,0.08);
+    transform: translateY(-6px);
+    transition: all .3s ease-in-out;
+}
+
 /* Start testimonials*/
 #testimonials {
     background-attachment: fixed;
