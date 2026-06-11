@@ -446,6 +446,9 @@ h1 {
 
 /* End Portfolio */
 /* Project plus button */
+.portfolio-card {
+    position: relative;
+}
 .project-plus{
     width:40px;
     height:40px;
@@ -453,12 +456,21 @@ h1 {
     align-items:center;
     justify-content:center;
     border-radius:50%;
-    border:0;
-    background:var(--primaryColor);
-    color:#fff;
-    box-shadow:0 2px 6px rgba(13,110,253,0.2);
+    border:2px solid var(--primaryColor);
+    background:#fff;
+    color:#000;
+    box-shadow:0 2px 6px rgba(13,110,253,0.12);
+    position:absolute;
+    top: 280px;
+    right:12px;
+    z-index:5;
 }
-.project-plus:hover{opacity:0.95}
+.project-plus:hover{background:#f8f9ff}
+.project-link{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
 
 /* Highlight target on portfolio page */
 .portfolio-highlight{
