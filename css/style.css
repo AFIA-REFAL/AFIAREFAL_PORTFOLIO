@@ -464,8 +464,11 @@ h1 {
     top: 280px;
     right:12px;
     z-index:5;
+    cursor:pointer;
+    padding:0;
 }
 .project-plus:hover{background:#f8f9ff}
+.project-plus:focus{outline:0}
 .project-link{
     display:block;
     text-decoration:none;

@@ -242,9 +242,9 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="portfolio.html#farm-vision" class="project-plus" title="View details">
+                                <button type="button" class="project-plus" title="View details" data-bs-toggle="modal" data-bs-target="#farmVisionModal">
                                     <span class="bi bi-plus-lg"></span>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -265,9 +265,9 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="portfolio.html#myntra" class="project-plus" title="View details">
+                                <button type="button" class="project-plus" title="View details" data-bs-toggle="modal" data-bs-target="#myntraModal">
                                     <span class="bi bi-plus-lg"></span>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -288,9 +288,9 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="portfolio.html#cognitia" class="project-plus" title="View details">
+                                <button type="button" class="project-plus" title="View details" data-bs-toggle="modal" data-bs-target="#cognitiaModal">
                                     <span class="bi bi-plus-lg"></span>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -311,9 +311,9 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="portfolio.html#smart-inbox" class="project-plus" title="View details">
+                                <button type="button" class="project-plus" title="View details" data-bs-toggle="modal" data-bs-target="#smartInboxModal">
                                     <span class="bi bi-plus-lg"></span>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -334,9 +334,9 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="portfolio.html#ole-clock" class="project-plus" title="View details">
+                                <button type="button" class="project-plus" title="View details" data-bs-toggle="modal" data-bs-target="#oleClockModal">
                                     <span class="bi bi-plus-lg"></span>
-                                </a>
+                                </button>
                             </div>
                         </div>
 
@@ -414,6 +414,122 @@
           
         </div>
     </footer>
+
+    <!-- MODALS -->
+    <!-- Farm Vision App Modal -->
+    <div class="modal fade" id="farmVisionModal" tabindex="-1" aria-labelledby="farmVisionLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="farmVisionLabel">Farm Vision App</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>An Android application that helps farmers identify crop diseases using image processing and machine learning. Users can upload crop images, receive disease predictions, and get recommendations for treatment and prevention.</p>
+            <h6 class="mt-4">Key Features:</h6>
+            <ul>
+              <li>Android Development (Java)</li>
+              <li>Machine Learning Integration</li>
+              <li>Image Processing</li>
+              <li>Farmer-Friendly Interface</li>
+            </ul>
+            <p class="mt-3"><a href="https://github.com/AFIA-REFAL/Farm_Vision" target="_blank" class="btn btn-primary btn-sm">View on GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Myntra Price Predictor Modal -->
+    <div class="modal fade" id="myntraModal" tabindex="-1" aria-labelledby="myntraLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="myntraLabel">Myntra Price Predictor</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>A machine learning project that predicts product prices based on historical data and product attributes. The model analyzes trends and helps estimate future pricing for fashion products.</p>
+            <h6 class="mt-4">Key Features:</h6>
+            <ul>
+              <li>Python</li>
+              <li>Machine Learning</li>
+              <li>Data Analysis</li>
+              <li>Price Forecasting</li>
+            </ul>
+            <p class="mt-3"><a href="https://github.com/AFIA-REFAL/Myntra-Dress-Price-Predictor-Mlops" target="_blank" class="btn btn-primary btn-sm">View on GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cognitia AI Assistant Modal -->
+    <div class="modal fade" id="cognitiaModal" tabindex="-1" aria-labelledby="cognitiaLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="cognitiaLabel">Cognitia AI Assistant</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>An AI-powered web assistant capable of answering questions, generating content, and assisting users with everyday tasks. Built with modern web technologies and integrated AI capabilities.</p>
+            <h6 class="mt-4">Key Features:</h6>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>AI Integration</li>
+              <li>Responsive Design</li>
+              <li>Interactive User Experience</li>
+            </ul>
+            <p class="mt-3"><a href="https://github.com/AFIA-REFAL/cognitia-ai-assistant" target="_blank" class="btn btn-primary btn-sm">View on GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smart Inbox Modal -->
+    <div class="modal fade" id="smartInboxModal" tabindex="-1" aria-labelledby="smartInboxLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="smartInboxLabel">Smart Inbox</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>An AI-driven message classification system that automatically categorizes emails and messages based on priority and content. It helps users focus on important communications and improve productivity.</p>
+            <h6 class="mt-4">Key Features:</h6>
+            <ul>
+              <li>Natural Language Processing</li>
+              <li>Message Classification</li>
+              <li>Priority Detection</li>
+              <li>Machine Learning</li>
+            </ul>
+            <p class="mt-3"><a href="https://github.com/AFIA-REFAL/smart-inbox" target="_blank" class="btn btn-primary btn-sm">View on GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ole the Cranky Clock Man Modal -->
+    <div class="modal fade" id="oleClockModal" tabindex="-1" aria-labelledby="oleClockLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="oleClockLabel">Ole the Cranky Clock Man</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>A priority-based job scheduling simulator developed to visualize and analyze scheduling algorithms. The application demonstrates how tasks are managed, delayed, and executed based on priority levels.</p>
+            <h6 class="mt-4">Key Features:</h6>
+            <ul>
+              <li>Java/Python Development</li>
+              <li>Scheduling Algorithms</li>
+              <li>Data Structures</li>
+              <li>Simulation & Visualization</li>
+            </ul>
+            <p class="mt-3"><a href="https://github.com/AFIA-REFAL/Ole-The-Crancky-Clock-Man" target="_blank" class="btn btn-primary btn-sm">View on GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- UP ARROW -->
     <a href="#home"
